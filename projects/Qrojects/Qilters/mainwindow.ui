@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>774</width>
+    <height>490</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Ubuntu</family>
+    <weight>50</weight>
+    <bold>false</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLabel" name="inputLabel">
+        <property name="text">
+         <string>Select Input Image</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="inputImgEdit"/>
+      </item>
+      <item>
+       <widget class="QPushButton" name="inputImgButton">
+        <property name="text">
+         <string>Browse</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QGroupBox" name="filtersGroupBox">
+        <property name="font">
+         <font>
+          <family>Ubuntu Mono</family>
+         </font>
+        </property>
+        <property name="title">
+         <string>Select Filters :</string>
+        </property>
+        <layout class="QGridLayout" name="gridLayout">
+         <item row="1" column="1">
+          <widget class="QRadioButton" name="blacknWhiteButton">
+           <property name="text">
+            <string>Black and White</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QRadioButton" name="gaussianButton">
+           <property name="text">
+            <string>Gaussian blur filter</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QRadioButton" name="meanButton">
+           <property name="text">
+            <string>Mean blur filter</string>
+           </property>
+          </widget>
+         </item>
+         <item row="10" column="0">
+          <widget class="QRadioButton" name="oceanButton">
+           <property name="text">
+            <string>Ocean</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="2">
+          <widget class="QRadioButton" name="azureButton">
+           <property name="text">
+            <string>Azure</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0">
+          <widget class="QRadioButton" name="autumnButton">
+           <property name="text">
+            <string>Autumn</string>
+           </property>
+          </widget>
+         </item>
+         <item row="7" column="1">
+          <widget class="QRadioButton" name="coolButton">
+           <property name="text">
+            <string>Cool</string>
+           </property>
+          </widget>
+         </item>
+         <item row="7" column="2">
+          <widget class="QRadioButton" name="emeraldButton">
+           <property name="text">
+            <string>Emerald</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QRadioButton" name="medianButton">
+           <property name="text">
+            <string>Median blur filter</string>
+           </property>
+          </widget>
+         </item>
+         <item row="8" column="1">
+          <widget class="QRadioButton" name="hsvButton">
+           <property name="text">
+            <string>HSV</string>
+           </property>
+          </widget>
+         </item>
+         <item row="7" column="0">
+          <widget class="QRadioButton" name="jetButton">
+           <property name="text">
+            <string>Jet</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="1">
+          <widget class="QRadioButton" name="summerButton">
+           <property name="text">
+            <string>Summer</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QRadioButton" name="negativeButton">
+           <property name="text">
+            <string>Negative filter</string>
+           </property>
+          </widget>
+         </item>
+         <item row="10" column="1">
+          <widget class="QRadioButton" name="hotButton">
+           <property name="text">
+            <string>Hot</string>
+           </property>
+          </widget>
+         </item>
+         <item row="10" column="2">
+          <widget class="QRadioButton" name="mintButton">
+           <property name="text">
+            <string>Mint</string>
+           </property>
+          </widget>
+         </item>
+         <item row="9" column="2">
+          <widget class="QRadioButton" name="tulipButton">
+           <property name="text">
+            <string>Tulip</string>
+           </property>
+          </widget>
+         </item>
+         <item row="8" column="2">
+          <widget class="QRadioButton" name="lemonButton">
+           <property name="text">
+            <string>Lemon</string>
+           </property>
+          </widget>
+         </item>
+         <item row="9" column="0">
+          <widget class="QRadioButton" name="rainbowButton">
+           <property name="text">
+            <string>Rainbow</string>
+           </property>
+          </widget>
+         </item>
+         <item row="9" column="1">
+          <widget class="QRadioButton" name="pinkButton">
+           <property name="text">
+            <string>Pink</string>
+           </property>
+          </widget>
+         </item>
+         <item row="11" column="0">
+          <widget class="QPushButton" name="applyButton">
+           <property name="font">
+            <font>
+             <family>Ubuntu Mono</family>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>Apply</string>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="1">
+          <widget class="QRadioButton" name="springButton">
+           <property name="text">
+            <string>Spring</string>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="2">
+          <widget class="QRadioButton" name="bloodButton">
+           <property name="text">
+            <string>Blood</string>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="0">
+          <widget class="QRadioButton" name="boneButton">
+           <property name="text">
+            <string>Bone</string>
+           </property>
+          </widget>
+         </item>
+         <item row="8" column="0">
+          <widget class="QRadioButton" name="winterButton">
+           <property name="text">
+            <string>Winter</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="moreLabel">
+           <property name="font">
+            <font>
+             <weight>75</weight>
+             <bold>true</bold>
+             <strikeout>false</strikeout>
+            </font>
+           </property>
+           <property name="cursor">
+            <cursorShape>ArrowCursor</cursorShape>
+           </property>
+           <property name="text">
+            <string>More Filters :</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QLabel" name="outputLabel">
+        <property name="text">
+         <string>Output Image</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="outputImgEdit"/>
+      </item>
+      <item>
+       <widget class="QPushButton" name="outputImgButton">
+        <property name="text">
+         <string>Browse</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="displayCheckBox">
+      <property name="text">
+       <string>Display Image after saving</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
